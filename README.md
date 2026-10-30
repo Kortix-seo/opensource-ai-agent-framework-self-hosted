@@ -1,6 +1,6 @@
 # Self-hosting an open-source AI agent framework on Kortix
 
-Kortix is the open-source AI Operating System: your agents, their skills, your company memory, and every connector live in one git repo you own, and every session runs on its own cloud computer. A self-hosting guide for running an open-source AI agent framework on Kortix, from install to a merged change request, with a full article in `/docs` for each step.
+Kortix is the open-source CompanyOS: your agents, their skills, your company memory, and every connector live in one git repo you own, and every session runs on its own cloud computer. A self-hosting guide for running an open-source AI agent framework on Kortix, from install to a merged change request, with a full article in `/docs` for each step.
 
 If you build agents with a library such as LangGraph or CrewAI, you still run the runtime, the isolation, the credentials and the deploys around it. Kortix is the open-source platform that runs those agents as company work: a `kortix.yaml` file plus markdown agents in one repo, each session on its own isolated machine and branch, and every change landing through a change request a person approves. The [framework vs platform guide](docs/framework-vs-platform.md) covers the full comparison.
 
