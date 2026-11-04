@@ -19,7 +19,7 @@ kortix init
 kortix ship
 ```
 
-Source: [Kortix on GitHub](https://github.com/kortix-ai/suna) and the [Kortix docs quickstart](https://kortix.com/docs/quickstart).
+Source: [Kortix on GitHub](https://github.com/kortix-ai/CompanyOS) and the [Kortix docs quickstart](https://kortix.com/docs/quickstart).
 
 Then run a session and review what the agent proposes:
 
@@ -47,7 +47,7 @@ triggers:
     prompt: Summarize yesterday's support tickets and open a change request with the digest.
 ```
 
-Source: [Kortix on GitHub](https://github.com/kortix-ai/suna). The key-by-key reference is the [`kortix.yaml` reference](https://kortix.com/docs/project/manifest).
+Source: [Kortix on GitHub](https://github.com/kortix-ai/CompanyOS). The key-by-key reference is the [`kortix.yaml` reference](https://kortix.com/docs/project/manifest).
 
 ## Guides
 
