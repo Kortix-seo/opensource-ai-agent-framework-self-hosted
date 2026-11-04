@@ -37,8 +37,10 @@ kortix chat    # talk to a session's agent from your terminal
 # kortix.yaml
 agents:
   support-triage:
-    file: agents/support-triage.md   # what it does, in plain markdown
-    connectors: all                  # what it may reach
+    description: Triages incoming support tickets.   # what it does
+    mode: primary
+    prompt_file: agents/support-triage.md
+    permission: allow
 
 triggers:
   - slug: daily-digest
