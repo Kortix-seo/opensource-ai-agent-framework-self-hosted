@@ -12,7 +12,7 @@ Three commands. Build your company like a codebase, then bring it live.
 # 1 · Install the CLI
 curl -fsSL https://kortix.com/install | bash
 
-# 2 · Scaffold a project — creates kortix.yaml + your agents, skills and runtime config
+# 2 · Scaffold a project — creates kortix.yaml plus the agent and skill files it names
 kortix init
 
 # 3 · Ship it — pushes your repo and brings the whole thing live in the cloud
@@ -31,7 +31,7 @@ kortix chat    # talk to a session's agent from your terminal
 
 ## What one `kortix.yaml` holds
 
-`kortix.yaml` is the Kortix layer of a project: the sandbox image, triggers, connectors, secret names and grants, and where agent config lives. Governance is a file in the repo, not a setting in someone else's database.
+`kortix.yaml` is the project's one config file. It sets the sandbox image, the agents, skills, tools and commands, the triggers, the connectors, and the secret names and grants, and it names the files that hold prompts and skills. Governance is a file in the repo, not a setting in someone else's database.
 
 ```yaml
 # kortix.yaml
